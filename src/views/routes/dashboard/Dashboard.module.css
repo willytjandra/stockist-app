@@ -1,0 +1,11 @@
+.searchList {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 1rem;
+}
+
+.searchItem {
+  width: 20vw;
+  height: 20vw;
+  margin: 0.5rem;
+}

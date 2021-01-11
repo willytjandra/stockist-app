@@ -1,0 +1,11 @@
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+
+.searchBox {
+  padding: 1rem;
+}

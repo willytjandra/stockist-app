@@ -1,0 +1,14 @@
+{
+  "Import React": {
+    "scope": "typescriptreact",
+    "prefix": ["import-react"],
+    "body": ["import React from 'react';"],
+    "description": "Import React library."
+  },
+  "React Functional Component": {
+    "scope": "typescriptreact",
+    "prefix": ["react-fc"],
+    "body": ["export const ${1:$TM_FILENAME_BASE}: React.FC = () => <div>${2:$TM_FILENAME_BASE}</div>;"],
+    "description": "Create empty React Functional Component."
+  }
+}
